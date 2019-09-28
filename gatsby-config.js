@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `dwayne.`,
+    title: `dwayne.fm`,
     author: `dwayne.`,
     description: `Musings. Murals. Modern-Day Hieroglyphs.`,
     siteUrl: `https://dwayne.fm`,
