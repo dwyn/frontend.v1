@@ -10,6 +10,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import Image from "gatsby-image"
 
 import { rhythm } from "../utils/typography"
+import Typist from 'react-typist';
 
 const Bio = () => {
   const data = useStaticQuery(graphql`
@@ -53,10 +54,9 @@ const Bio = () => {
           borderRadius: `50%`,
         }}
       />
-      <p>
-        Written by <strong>{author}</strong> All typos are my own.
-        {` `}
-      </p>
+      <Typist startDelay={1000}>
+        Written by <strong>{author}</strong> All typos are my own.{' '}
+      </Typist>
     </div>
   )
 }
