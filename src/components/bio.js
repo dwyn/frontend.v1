@@ -1,10 +1,3 @@
-/**
- * Bio component that queries for data
- * with Gatsby's useStaticQuery component
- *
- * See: https://www.gatsbyjs.org/docs/use-static-query/
- */
-
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Image from "gatsby-image"
@@ -54,9 +47,28 @@ const Bio = () => {
           borderRadius: `50%`,
         }}
       />
-      <Typist startDelay={1000}>
-        Written by <strong>{author}</strong> All typos are my own.{' '}
-      </Typist>
+
+      <div>
+        <Typist
+          avgTypingDelay={25} 
+          startDelay={300}
+          cursor={{
+            show: true,
+            blink: true,
+            element: '|',
+            // hideWhenDone: true,
+            // hideWhenDoneDelay: 0,
+          }}
+        >
+          
+          Written by <strong>{author}</strong> <br/>
+          <Typist.Delay ms={600} />
+          All typos are my own.
+          {' '}
+
+        </Typist>
+      </div>
+
     </div>
   )
 }
