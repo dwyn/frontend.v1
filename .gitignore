@@ -42,9 +42,6 @@ typings/
 # Optional npm cache directory
 .npm
 
-# Optional eslint cache
-.eslintcache
-
 # Optional REPL history
 .node_repl_history
 
@@ -67,3 +64,7 @@ yarn-error.log
 .pnp.js
 # Yarn Integrity file
 .yarn-integrity
+
+
+# Ignore Pending Posts
+temp-content/

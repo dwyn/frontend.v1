@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `dwayne.fm`,
     author: `dwayne.`,
-    description: `Musings. Murals. Modern-Day Hieroglyphs.`,
+    description: `Musings. Music. Modern-Day Hieroglyphs.`,
     siteUrl: `https://dwayne.fm`,
     social: {
       twitter: `dwyn`,
@@ -28,6 +28,15 @@ module.exports = {
       options: {
         plugins: [
           {
+            resolve: `gatsby-remark-prismjs`,
+            options: {
+              inlineCodeMarker: '÷',
+              aliases: {},
+              showLineNumbers: false,
+              noInlineHighlight: false,
+            },
+          },
+          {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 590,
@@ -39,7 +48,7 @@ module.exports = {
               wrapperStyle: `margin-bottom: 1.0725rem`,
             },
           },
-          `gatsby-remark-prismjs`,
+          // `gatsby-remark-prismjs`,
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`,
         ],

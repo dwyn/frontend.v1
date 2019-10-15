@@ -1,8 +1,9 @@
-import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
-import Image from "gatsby-image"
+import React from "react";
+import { useStaticQuery, graphql } from "gatsby";
+import Image from "gatsby-image";
+import '../styles/cursor.css';
 
-import { rhythm } from "../utils/typography"
+import { rhythm } from "../utils/typography";
 import Typist from 'react-typist';
 
 const Bio = () => {
@@ -56,13 +57,13 @@ const Bio = () => {
             show: true,
             blink: true,
             element: '|',
-            // hideWhenDone: true,
-            // hideWhenDoneDelay: 0,
+            hideWhenDone: true,
+            hideWhenDoneDelay: 500,
           }}
         >
           
           Written by <strong>{author}</strong> <br/>
-          <Typist.Delay ms={600} />
+          <Typist.Delay ms={1000} />
           All typos are my own.
           {' '}
 
