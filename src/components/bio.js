@@ -61,7 +61,7 @@ const Bio = () => {
             hideWhenDoneDelay: 500,
           }}
         >
-          
+          Hi there Ron!
           Written by <strong>{author}</strong> <br/>
           <Typist.Delay ms={1000} />
           All typos are my own.
