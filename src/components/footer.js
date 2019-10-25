@@ -27,13 +27,6 @@ class Footer extends React.Component {
           github
         </a>{' '}
         ☆ {' '}
-        <a
-          href="https://open.spotify.com/user/dwayne.?si=wcHSeAq7Qm-2bn-rMhUYvw"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          spotify
-        </a>{' '}
       </footer>
     );
   }
