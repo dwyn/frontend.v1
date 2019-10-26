@@ -18,7 +18,7 @@ class Footer extends React.Component {
         >
           twitter
         </a>{' '}
-        ☆{' '}
+        &#8226;{' '}
         <a
           href="https://github.com/dwyn"
           target="_blank"
@@ -26,7 +26,7 @@ class Footer extends React.Component {
         >
           github
         </a>{' '}
-        ☆ {' '}
+         {' '}
       </footer>
     );
   }

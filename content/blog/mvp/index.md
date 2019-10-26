@@ -34,7 +34,7 @@ So now what? (Enter [GatsbyJS](https://www.gatsbyjs.org/)!) Oh haayyy, Gatsby! N
 ![Cheers Gatsby](hi_gatsby.gif)
 
 
-Gatsby has been on my list of things to check out for some time. In attempts to build this site with a beautiful interface, Gatsby quickly moved to the top of my list of things to learn. With Gatsby comes [GraphQL](https://www.howtographql.com/) (and I appreciate Gatsby for that). Now I am needing to learn GraphQL so as to query my Rails API. With a little more digging it only made sense to implement GraphQL in my Rails API as well. (GraphQL was also on my list of things to learn, so what better time than now? amirite!?) My revised MVP:
+Gatsby has been on my list of technology to check out for some time. In attempts to build this site with a beautiful interface, Gatsby quickly moved to the top of my list of things to learn. With Gatsby comes [GraphQL](https://www.howtographql.com/) (and I appreciate Gatsby for that). Now I am needing to learn GraphQL so as to query my Rails API. With a little more digging it only made sense to implement GraphQL in my Rails API as well. (GraphQL was also on my list of things to learn, so what better time than now? amirite!?) My revised MVP:
 
 * Gatsby frontend
 * Lean [Rails](https://rubygems.org/gems/rails) [API](https://en.wikipedia.org/wiki/Application_programming_interface)
