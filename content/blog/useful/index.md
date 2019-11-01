@@ -4,9 +4,9 @@ date: "2019-10-20T00:00:00.000Z"
 description: Tidbits I looovvee!
 ---
 
-Hello neighbor. I must say, I am really excited about having one place to store all of the things I want to share with the world. I share a little on [instagram](https://www.instagram.com/dwyn/); I share a little on [Twitter](https://twitter.com/dwyn); I have [a few gists](https://gist.github.com/dwyn) with useful information; I have a few [repos](https://github.com/dwyn) with useful code. But [dwayne.fm](https://dwayne.fm) has been / will great for keeping things in one place and organized😊
+Hello neighbor. I must say, I am really excited about having one place to store all of the things I want to share with the world. I share a little on [instagram](https://www.instagram.com/dwyn/); a little on [Twitter](https://twitter.com/dwyn); I have [a few gists](https://gist.github.com/dwyn) with useful information; I have a few [repos](https://github.com/dwyn) with useful code. But [dwayne.fm](https://dwayne.fm) has been / will be great for keeping things in one place and organized😊
 
-Anywho, these are some useful tidbits that I've found helpful in my journey to transhumanism. Feel free to use what you like, give me feedback on what you hate and most certainly share what you love! 
+Anywho, these are some useful tidbits that I've found helpful in my journey to transhumanism... I mean becoming a stellar engineer. Feel free to use what you like, give me feedback on what you hate and most certainly share what you love! As always Ill continue to update as neccessary.
 
 
 ### Jump to a Section
