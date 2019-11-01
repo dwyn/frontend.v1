@@ -17,6 +17,7 @@ class Layout extends React.Component {
       this.setState({ theme: window.__theme });
     };
   }
+
   renderHeader() {
     const { location, title } = this.props;
     const rootPath = `${__PATH_PREFIX__}/`;
@@ -67,6 +68,7 @@ class Layout extends React.Component {
       );
     }
   }
+  
   render() {
     const { children } = this.props;
 
