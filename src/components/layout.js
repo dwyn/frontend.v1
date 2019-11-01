@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import Toggle from './Toggle';
+import Toggle from './toggle';
 import Helmet from 'react-helmet';
 
 import { rhythm, scale } from '../utils/typography';
@@ -68,7 +68,7 @@ class Layout extends React.Component {
       );
     }
   }
-  
+
   render() {
     const { children } = this.props;
 
