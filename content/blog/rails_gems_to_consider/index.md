@@ -1,24 +1,14 @@
 ---
 title: Rails Gems to Consider
-date: "2019-09-29T00:00:00.000Z"
-description: Starting a new rails app? Consider these.
+date: "2019-09-25T00:00:00.000Z"
+description: If 
 ---
 
-Hello neighbor. While there are plenty of Rails gems I would love to tell you about, I feel as though this list is a sold start. I'll add to this list when I feel stronger about some of the endorsements I have in mind. 
-
-## Rspec-Rails (Because why wouldn't you!?)
-Site: https://rubygems.org/gems/rspec-rails <br>
-Github: https://github.com/rspec/rspec-rails <br>
-Usage: https://youtu.be/71eKcNxwxVY <br>
-rspec-rails brings the RSpec testing framework to Ruby on Rails as a drop-in alternative to its default testing framework, Minitest. In RSpec, tests are not just scripts that verify your application code. They’re also specifications (or specs, for short): detailed explanations of how the application is supposed to behave, expressed in plain English.
 
 
 ## Better Errors (friggin LOVING this gem!)
-Site: https://rubygems.org/gems/better_errors <br>
-Github: https://github.com/BetterErrors/better_errors <br>
-Usage: https://youtu.be/9-IaaUZZkRc <br>
-Provides a better error page for Rails and other Rack apps. Includes source code inspection, a live REPL and local/instance variable inspection for all stack frames.
-
+Site: https://github.com/BetterErrors/better_errors
+Better Errors replaces the standard Rails error page with a much better and more useful error page. It is also usable outside of Rails in any Rack app as Rack middleware.
 
 ## Active Admin
 Site: https://activeadmin.info/ <br>
@@ -36,6 +26,11 @@ Adds step-by-step debugging and stack navigation capabilities to pry using byebu
 byebug has a very similar interface as gdb, but byebug does not use the powerful Pry REPL.
 binding.pry uses Pry, but lacks some of the byebug features. GitLab uses the pry-byebug gem. This gem brings some capabilities byebug to binding.pry. so using that, will give you the most debugging powers.
 
+## Paperclip
+Site: https://github.com/thoughtbot/paperclip <br>
+Usage: https://www.youtube.com/watch?v=Z5W-Y3aROVE <br>
+Alternatively, check out This article by Jenn Hansen <br>
+https://docs.google.com/document/d/1XXYaySGfdhbwmNTEx2b_SoWROVDaxVPJpyqFzDeqKzA/edit
 
 ## DEVISE
 Github: https://github.com/plataformatec/devise <br>
@@ -48,14 +43,24 @@ Is a complete MVC solution based on Rails engines;
 Allows you to have multiple models signed in at the same time;
 Is based on a modularity concept: use only what you really need.
 
+## AHOY
+Github: https://github.com/ankane/ahoy <br>
+Usage: https://www.youtube.com/watch?v=nJRupUjyO08 <br>
+Track visits and events in Ruby, JavaScript, and native apps. Data is stored in your database by default so you can easily combine it with other data.
 
-## CANCANCAN
+## CANCANCAN (or Pundit?)
 Github: https://github.com/CanCanCommunity/cancancan <br>
 Usage: https://youtu.be/VcUjOMR0kyY <br>
 CanCanCan is an authorization library for Ruby >= 2.2.0 and Ruby on Rails >= 4.2 which restricts what resources a given user is allowed to access.
-
 
 ## Simple Form
 Site: http://simple-form-bootstrap.plataformatec.com.br
 Usage: https://www.youtube.com/watch?v=o0eVqNbapb0
 Simple Form helps you build responsive, mobile-first HTML Forms with Simple Form and Bootstrap. The world's most popular front-end component library meets easy and simple DSL to build Forms with Rails.
+
+
+ActiveMerchant
+https://github.com/activemerchant/active_merchant
+
+RuboCop
+https://github.com/rubocop-hq/rubocop
