@@ -1,6 +1,6 @@
 ---
 title: Useful af
-date: "2019-10-20T00:00:00.000Z"
+date: "2019-09-20T00:00:00.000Z"
 description: Tidbits I looovvee!
 ---
 
@@ -15,8 +15,8 @@ Anywho, these are some useful tidbits that I've found helpful in my journey to t
 + [Awesome Fonts](#fonts)
 + [Awesome Resources for Programming](#resources)
 
-
 ___
+
 # <span id="vscode">VSCode Extentions</span>
 
 
