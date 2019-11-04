@@ -7,7 +7,8 @@ import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
 import Footer from '../components/footer';
 // import '../styles/cursor.css';
-import 'prismjs/themes/prism-tomorrow.css'; //For syntax highlighting?
+// import 'prismjs/themes/prism-tomorrow.css'; //For syntax highlighting?
+import 'prismjs/themes/prism-coy.css'
 // import 'prismjs/plugins/line-numbers/prism-line-numbers.css'// For syntax highlighting line numbers
 
 class BlogIndex extends React.Component {
