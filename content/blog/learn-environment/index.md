@@ -4,6 +4,7 @@ date: "2019-10-15T00:00:00.001Z"
 description: New to Flatiron? This may help.
 ---
 
+Hello neighbor. This is a simply a port from the [Mac OSX Manual Environment Set Up](https://help.learn.co/en/articles/900121-mac-osx-manual-environment-set-up) on the [Flatiron Learn helpdocs](https://help.learn.co/en/). I ported this manual because I can control the syntax highlighting making it a bit more legible for users.  Sidenote: This is the installation for a Bash shell, as opposed to a Zsh shell. Seeing as how Macs will run Zsh as a default starting with macOS Catalina 10.15, I will post another entry similar to this one with an installation for Zsh. &nbsp; As always, feedback is welcomed!
 
 This is a step-by-step guide for how to set up your local environment on a Mac. Note for online students: We do not provide support for environment issues if you set up a local environment using a Mac. For supported environment options, please read this article: http://help.learn.co/the-learn-ide/the-basics-of-the-learn-ide/using-the-ide-versus-a-local-environment
 <br>
