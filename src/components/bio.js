@@ -1,7 +1,7 @@
 import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
 import Image from "gatsby-image";
-import '../styles/cursor.css';
+import './typist.css';
 
 import { rhythm } from "../utils/typography";
 import Typist from 'react-typist';
@@ -51,14 +51,15 @@ const Bio = () => {
 
       <div>
         <Typist
-          avgTypingDelay={25} 
-          startDelay={300}
+          avgTypingDelay={80} 
+          startDelay={100}
+          stdTypingDelay={33}
           cursor={{
             show: true,
             blink: true,
-            element: '|',
-            hideWhenDone: true,
-            hideWhenDoneDelay: 500,
+            element: '▍',
+            // hideWhenDone: true,
+            // hideWhenDoneDelay: 500,
           }}
         >
           Written by <strong>{author}</strong> <br/>
