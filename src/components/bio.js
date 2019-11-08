@@ -60,10 +60,12 @@ const Bio = () => {
             element: '▍',
           }}
         >
-          Musings. &nbsp; <Typist.Delay ms={400} /> Music. &nbsp; <Typist.Delay ms={400} /> Modern-Day Hieroglyphs.<Typist.Delay ms={500} /> <br />
+          Musings. &nbsp;<Typist.Delay ms={400} />
+          Music. &nbsp;<Typist.Delay ms={400} />
+          Modern-Day Hieroglyphs.<Typist.Delay ms={600} /> <br />
           
           Written by <strong>{author}</strong>
-          <Typist.Backspace count={19} delay={100} />
+          <Typist.Backspace count={19} delay={1400} />
           All typos are my own.
           {' '}
 
