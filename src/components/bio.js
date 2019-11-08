@@ -51,19 +51,19 @@ const Bio = () => {
 
       <div>
         <Typist
-          avgTypingDelay={80} 
+          avgTypingDelay={50} 
           startDelay={100}
           stdTypingDelay={33}
           cursor={{
             show: true,
             blink: true,
             element: '▍',
-            // hideWhenDone: true,
-            // hideWhenDoneDelay: 500,
           }}
         >
-          Written by <strong>{author}</strong> <br/>
-          <Typist.Delay ms={1000} />
+          Musings. &nbsp; <Typist.Delay ms={400} /> Music. &nbsp; <Typist.Delay ms={400} /> Modern-Day Hieroglyphs.<Typist.Delay ms={500} /> <br />
+          
+          Written by <strong>{author}</strong>
+          <Typist.Backspace count={19} delay={100} />
           All typos are my own.
           {' '}
 
