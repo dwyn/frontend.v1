@@ -72,7 +72,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 <div style="border-style: solid; border-color: red; border-width: 1px; border-radius: 10px; padding: 20px">  If you are a Flatiron student, either / or wont make a huge difference in your world for your portfolio project. </div>
 <br>
 
-Anywho, after youve updated your Gemfile, run `bundle install` to get the Bootsrap gem installed. 
+Anywho, after you've updated your Gemfile, run `bundle install` to get the Bootsrap gem installed. 
 <hr>
 
 ## Step 2: Move sass to Webpack
@@ -139,7 +139,12 @@ Popper: ["popper.js", "default"]
 module.exports = environment;
 ```
 
-3c: Update your application.js and add `import "../stylesheets/application";`
+3c: Update your application.js
+Add: &nbsp; `import "bootstrap";` <br/>
+also add: <br/>
+`import "../stylesheets/application";` <br/>
+
+Your file should look something like this:
 ```javascript
 // app/javascript/packs/application.js
 
