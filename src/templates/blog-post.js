@@ -41,7 +41,8 @@ class BlogPostTemplate extends React.Component {
           <section dangerouslySetInnerHTML={{ __html: post.html }} />
           <hr
             style={{
-              marginBottom: rhythm(1),
+              marginTop: rhythm(3),
+              marginBottom: rhythm(3),
             }}
           />
           <footer>
