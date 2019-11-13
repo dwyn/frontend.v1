@@ -180,7 +180,7 @@ create a partial file: <br/>
 #### 3: Customize Flashtypes 
 
 In your application\_controller.rb file, add the following: <br/>
-`add\_flash\_types :danger, :info, :warning, :success` 
+`add_flash_types :danger, :info, :warning, :success` 
 
 
 #### 4. Rendering the Partial
