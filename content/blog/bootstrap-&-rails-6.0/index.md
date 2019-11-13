@@ -93,7 +93,7 @@ You can do so by running &nbsp; `mkdir app/javascript/packs/stylesheets/` &nbsp;
 @import "bootstrap";
 ```
 
-2d: Also, let's change the reference link in application.html.erb file from <span style="color: crimson;">stylesheet\_link\_tag </span> &nbsp; to &nbsp; <span style="color: crimson;">stylesheet\_pack\_tag </span> When you are done, it should look something like this:
+2d: Also, let's change the reference link in application.html.erb file from <span style="color: crimson;">stylesheet\_link\_tag </span> &nbsp; to &nbsp; <span style="color: crimson;">stylesheet\_pack\_tag </span> &nbsp; When you are done, it should look something like this:
 
 ```html
 <!DOCTYPE html>
@@ -140,6 +140,7 @@ module.exports = environment;
 ```
 
 3c: Update your application.js
+
 Add: &nbsp; `import "bootstrap";` <br/>
 also add: <br/>
 `import "../stylesheets/application";` <br/>
