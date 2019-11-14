@@ -78,7 +78,7 @@ Anywho, after you've updated your Gemfile, run `bundle install` to get the Boots
 ## Step 2: Move sass to Webpack
 
 2a: Create following folder app/javascript/packs/stylesheets/. <br/>
-You can do so by running &nbsp; `mkdir app/javascript/packs/stylesheets/` &nbsp; from the command line. 
+You can do so by running &nbsp; `mkdir app/javascript/stylesheets/` &nbsp; from the command line. 
 
 2b: In that stylesheets directory create an &nbsp; <span style="color: crimson;">application.scss</span> &nbsp; file. 
 <br>
