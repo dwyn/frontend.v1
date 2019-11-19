@@ -13,13 +13,15 @@ What is Webpacker? Whoa, you ask the best questions! It's why I love having you 
 [This article](https://prathamesh.tech/2019/08/26/understanding-webpacker-in-rails-6/) does a good job explaining what Webpacker is. I'll share a tiny bit with you here:
 > webpacker is a gem which wraps webpack - the popular JavaScript tool used for managing and bundling JavaScript code - and provides helpers to use the webpack in our Rails applications. In simple words it provides Rails way of using webpack. Webpacker wraps webpack in a Ruby gem and provides helpers to use the output from Webpacker in the Rails application.
 
-Really what I'd like you to take away is that Rails no longer uses [Sprockets](https://stackoverflow.com/questions/31828795/what-sprockets-mean-in-rails) by default. As a result the way we go about implementing Bootstrap is different. &nbsp;  A small example of how this affects us is directory (folder?) structuring. For example used to have a directory that was structured like this: &nbsp;  <span style="color: crimson;"> app/assets/javascript </span> . &nbsp; Nowadays, it is structured as follows: &nbsp; <span style="color: crimson;">app/javascript`</span>.
+Really what I'd like you to take away is that Rails no longer uses [Sprockets](https://stackoverflow.com/questions/31828795/what-sprockets-mean-in-rails) by default. As a result the way we go about implementing Bootstrap is different. &nbsp;  A small example of how this affects us is directory (folder?) structuring. For example we used to have a directory that was structured like this: &nbsp;  <span style="color: crimson;"> app/assets/javascript </span> . &nbsp; Nowadays, it is structured as follows: &nbsp; <span style="color: crimson;">app/javascript`</span>.
 
 ## Step 1: Gemfile
 First things first, lets add the Bootstrap gem to our gemfile.
 
-`gem 'bootstrap',  '~>4.3.1'`  _This will install a specific version of Bootstrap. So replace 4.3.1 with the latest version._ <br/>
-or <br/>
+`gem 'bootstrap',  '~>4.3.1'`  _This will install a specific version of Bootstrap. So replace 4.3.1 with the latest version._ 
+<!-- <br/> -->
+<!-- <br> -->
+OR <br/>
 `gem 'bootstrap'` &nbsp;  _This will default to the latest whenever bundle install is run_.
 
 I'll leave it up to you to research which is the better route. For now, your Gemfile should look something like this:
@@ -84,6 +86,8 @@ You can do so by running &nbsp; `mkdir app/javascript/stylesheets/` &nbsp; from 
 <br>
 
 ![file tree](./filetree.png)
+
+<br>
 
 2c: Add `@import "bootstrap";` to your application.scss file. <br>
 
@@ -170,7 +174,8 @@ create a partial file: <br/>
 ```erb
 
 <% flash.each do |name, message| %>
-  <div class='alert alert-<%=name%>'>
+  <div class="alert alert-<%=name%> alert-dismissable">
+    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
     <%= message %>
   </div>
 <% end %>
