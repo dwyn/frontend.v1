@@ -1,3 +1,31 @@
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`
+})
+
+const siteQuery = `{
+  allMarkdownRemark {
+    nodes {
+      frontmatter {
+        title
+        date
+        description
+      }
+      fields{
+        slug 
+      }
+      excerpt
+      html
+    }
+  }
+}`
+
+const queries = [
+  {
+    query: siteQuery,
+    transformer: ({ data }) => data.allMarkdownRemark.nodes,
+  }
+];
+
 module.exports = {
   siteMetadata: {
     title: `dwayne.fm`,
@@ -13,6 +41,17 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+
+    {
+      resolve: `gatsby-plugin-algolia`,
+      options: {
+        appId: process.env.GATSBY_ALGOLIA_APP_ID,
+        apiKey: process.env.ALGOLIA_ADMIN_KEY,
+        indexName: process.env.ALGOLIA_INDEX_NAME,
+        queries,
+        chunkSize: 10000, // default: 1000
+      },
+    },
 
     {
       resolve: `gatsby-source-filesystem`,
