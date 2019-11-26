@@ -10,11 +10,9 @@ import PostPreview from "../components/post-preview";
 import 'prismjs/themes/prism-coy.css'
 import algoliasearch from 'algoliasearch/lite';
 import { InstantSearch, SearchBox, Hits } from 'react-instantsearch-dom';
-const searchClient = algoliasearch('NNL7N3L2O7', 'cff43c48ea33c25a57931077fa7742a5');
+import { SortBy } from 'react-instantsearch-dom';
 
-// const searchInputhStyling = {
-//   width: 100 %
-// };
+const searchClient = algoliasearch('NNL7N3L2O7', 'cff43c48ea33c25a57931077fa7742a5');
 
 class BlogIndex extends React.Component {
   render() {
@@ -26,9 +24,13 @@ class BlogIndex extends React.Component {
         <Bio />
 
         <InstantSearch searchClient={searchClient} indexName="dwayne.fm">
-          {/* <div style={searchInputhStyling}> */}
-            <SearchBox />
-          {/* </div> */}
+          <SortBy
+            items={[
+              { value: 'instant_search', label: 'Title' },
+              { value: 'instant_search_date_asc', label: 'Date asc.' },
+            ]}
+          />
+          <SearchBox />
           <Hits hitComponent={PostPreview }/>
         </InstantSearch>
         <Footer/>

@@ -8,6 +8,7 @@ const PostPreview = ({ hit }) => {
   return (
     <article>
       <header>
+        
         <h3 style={{ marginBottom: rhythm(1 / 4),}}>
           <Link style={{ boxShadow: `none` }} to={hit.slug}>
             {hit.frontmatter.title}
@@ -15,7 +16,7 @@ const PostPreview = ({ hit }) => {
           </Link>
         </h3>
       
-        <small>{new Date(hit.date).toLocaleDateString()}</small>
+        <small>{new Date(hit.frontmatter.date).toLocaleDateString()}</small>
       
       </header>
       <section>
