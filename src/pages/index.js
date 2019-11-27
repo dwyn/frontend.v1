@@ -24,13 +24,15 @@ class BlogIndex extends React.Component {
         <Bio />
 
         <InstantSearch searchClient={searchClient} indexName="dwayne.fm">
+
+          <SearchBox />
           <SortBy
+            defaultRefinement="instant_search"
             items={[
               { value: 'instant_search', label: 'Title' },
               { value: 'instant_search_date_asc', label: 'Date asc.' },
             ]}
           />
-          <SearchBox />
           <Hits hitComponent={PostPreview }/>
         </InstantSearch>
         <Footer/>
