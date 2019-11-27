@@ -4,6 +4,8 @@ date: "2019-08-01T00:00:00.000Z"
 description: Musings. Music. Modern-Day Heiroglyphs.
 ---
 
+oh hay
+
 Why do most repos / projects start with <span style="color: red">_First commit._</span>? If this answer doesn't find me, Ill never know. Because it is highly unlikely I will ever look it up.
 
 Either way it felt fitting for the title of my first blog post🤓. In building my own personal soapbox, its  only fair to outline what you can expect when stopping by.  There are three main categories I will tag each post with:
