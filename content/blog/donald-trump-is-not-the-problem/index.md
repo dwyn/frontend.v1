@@ -41,7 +41,7 @@ From the etc directory, you can type &nbsp; `ls` &nbsp; to list the contents. If
 Run: &nbsp; `code hosts` &nbsp; to open your hosts file in vscode.
 
 #### Step 3: Edit Your Hosts File
-Your hosts filee should look something like this:
+Your hosts file should look similar to this:
 
 ```
 ##
@@ -56,7 +56,7 @@ Your hosts filee should look something like this:
 
 ```
 
-Let's zero out Facebook, meaning lets set facebook's ip address to 0.0.0.0. On the last line of the hosts file, add `0.0.0.0 facebook.com` It would look something like this:
+Let's zero out Facebook, meaning lets set facebook's ip address to 0.0.0.0. On the last line of the hosts file, add `0.0.0.0 facebook.com` It would look similar to this:
 
 ```
 ##
@@ -78,7 +78,7 @@ Upon saving your changes, you will be prompted with "Failed to save 'hosts': Ins
 ![retry as sudo](retryassudo.png)
 
 
-Now, if you restart your browser and try to visit facebook.com, your browser will respond something like...
+Now, if you restart your browser and try to visit facebook.com, your browser will respond with something along the lines of...
 
 
 ![can't be reached](cantbereached.png)
