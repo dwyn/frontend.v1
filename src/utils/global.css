@@ -189,3 +189,7 @@ pre[data-line] {
   float: left;
   min-width: 100%;
 }
+
+section p {
+  text-align: justify;
+}
