@@ -238,15 +238,21 @@ pre[data-line] {
   min-width: 100%;
 }
 
-.RNNXgb {
-    background: #fff;
-    display: flex;
-    border-radius: 8px;
-    border: 1px solid #dfe1e5;
-    box-shadow: none;
-    border-radius: 24px;
-    z-index: 3;
-    height: 44px;
-    margin: 0 auto;
-    width: 482px;
+
+.ais-SearchBox-input {
+  background: #fff;
+  padding-left: 20px;
+  display: flex;
+  border-radius: 8px;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  border-radius: 24px;
+  z-index: 3;
+  height: 44px;
+  margin: 0 auto;
+  min-width: 100%;
 }
+
+/* hello { */
+
+/* } */
