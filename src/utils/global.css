@@ -253,6 +253,14 @@ pre[data-line] {
   min-width: 100%;
 }
 
-/* hello { */
+.ais-SearchBox-submit {
+  display: none;
+}
 
-/* } */
+.ais-SearchBox-reset {
+  display: none;
+}
+
+.ais-Hits-list {
+  list-style: none;
+}
