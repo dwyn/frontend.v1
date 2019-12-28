@@ -4,7 +4,7 @@ date: "2019-08-01T00:00:02.000Z"
 description: The other MVP!
 ---
 
-What do you think of when you hear / read  M.V.P.? If you a beginner developer, and think Most Valuable Player that would be totally reasonable. However, I am referring to [Minimum Viable Product]().
+Howdy neighbor! What do you think of when you hear / read  M.V.P.? If you a beginner developer, and think Most Valuable Player that would be totally reasonable. However, I am referring to [Minimum Viable Product]().
 
 > _A minimum viable product (MVP) is a product with just enough features to satisfy early customers and provide feedback for future product development._</span>
 

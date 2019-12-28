@@ -1,3 +1,31 @@
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`
+})
+
+const siteQuery = `{
+  allMarkdownRemark {
+    nodes {
+      frontmatter {
+        title
+        date
+        description
+      }
+      fields{
+        slug 
+      }
+      excerpt
+      html
+    }
+  }
+}`
+
+const queries = [
+  {
+    query: siteQuery,
+    transformer: ({ data }) => data.allMarkdownRemark.nodes,
+  }
+];
+
 module.exports = {
   siteMetadata: {
     title: `dwayne.fm`,
@@ -9,6 +37,22 @@ module.exports = {
     },
   },
   plugins: [
+    `gatsby-plugin-offline`,
+    `gatsby-plugin-react-helmet`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+
+    {
+      resolve: `gatsby-plugin-algolia`,
+      options: {
+        appId: process.env.GATSBY_ALGOLIA_APP_ID,
+        apiKey: process.env.ALGOLIA_ADMIN_KEY,
+        indexName: process.env.ALGOLIA_INDEX_NAME,
+        queries,
+        chunkSize: 10000, // default: 1000
+      },
+    },
+
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -16,6 +60,7 @@ module.exports = {
         name: `blog`,
       },
     },
+
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -23,10 +68,14 @@ module.exports = {
         name: `assets`,
       },
     },
+    
     {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
+          // `gatsby-remark-prismjs`,
+          `gatsby-remark-copy-linked-files`,
+          `gatsby-remark-smartypants`,
           {
             resolve: `gatsby-remark-prismjs`,
             options: {
@@ -36,26 +85,24 @@ module.exports = {
               noInlineHighlight: false,
             },
           },
+
           {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 590,
             },
           },
+
           {
             resolve: `gatsby-remark-responsive-iframe`,
             options: {
               wrapperStyle: `margin-bottom: 1.0725rem`,
             },
           },
-          // `gatsby-remark-prismjs`,
-          `gatsby-remark-copy-linked-files`,
-          `gatsby-remark-smartypants`,
+
         ],
       },
     },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
@@ -75,13 +122,13 @@ module.exports = {
         icon: `content/assets/gatsby-icon.png`,
       },
     },
-    `gatsby-plugin-offline`,
-    `gatsby-plugin-react-helmet`,
+
     {
       resolve: `gatsby-plugin-typography`,
       options: {
         pathToConfigModule: `src/utils/typography`,
       },
     },
+    
   ],
 }
