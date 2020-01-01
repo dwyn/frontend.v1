@@ -5,12 +5,12 @@ import { Highlight } from "react-instantsearch-dom"
 
 const PostPreview = ({ hit }) => {
   const title = hit.frontmatter.title || hit.fields.slug
+
   return (
     <article>
       <header>
-        
         <h3 style={{ marginBottom: rhythm(1 / 4),}}>
-          <Link style={{ boxShadow: `none` }} to={hit.slug}>
+          <Link style={{ boxShadow: `none` }} to={hit.fields.slug}>
             {hit.frontmatter.title}
             <Highlight hit={hit} attribute="title" tagName="mark" />
           </Link>
