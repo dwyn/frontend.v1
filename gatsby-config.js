@@ -14,7 +14,6 @@ const siteQuery = `{
         slug 
       }
       excerpt
-      html
     }
   }
 }`
