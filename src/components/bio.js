@@ -75,5 +75,3 @@ const Bio = () => {
     </div>
   )
 }
-
-export default Bio
