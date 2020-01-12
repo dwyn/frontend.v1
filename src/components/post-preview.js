@@ -19,9 +19,9 @@ const PostPreview = ({ hit }) => {
         <small>{new Date(hit.frontmatter.date).toLocaleDateString()}</small>
       
       </header>
-      <section>
+      {/* <section>
         <Highlight hit={hit} attribute="excerpt" tagName="mark"/> 
-      </section>
+      </section> */}
     </article>
   )
 }
