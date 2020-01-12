@@ -10,7 +10,6 @@ import PostPreview from "../components/post-preview";
 import 'prismjs/themes/prism-coy.css'
 import algoliasearch from 'algoliasearch/lite';
 import { InstantSearch, SearchBox, Hits } from 'react-instantsearch-dom';
-import { SortBy } from 'react-instantsearch-dom';
 
 const searchClient = algoliasearch('NNL7N3L2O7', 'cff43c48ea33c25a57931077fa7742a5');
 

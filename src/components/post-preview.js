@@ -4,7 +4,7 @@ import { rhythm } from "../utils/typography"
 import { Highlight } from "react-instantsearch-dom"
 
 const PostPreview = ({ hit }) => {
-  const title = hit.frontmatter.title || hit.fields.slug
+  // const title = hit.frontmatter.title || hit.fields.slug // Not sure I still need this line? Ill keep it for now...
 
   return (
     <article>

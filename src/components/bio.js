@@ -27,7 +27,8 @@ const Bio = () => {
     }
   `)
 
-  const { author, social } = data.site.siteMetadata
+  // const { author, social } = data.site.siteMetadata
+  const { author } = data.site.siteMetadata
   return (
     <div
       style={{
@@ -75,3 +76,5 @@ const Bio = () => {
     </div>
   )
 }
+
+export default Bio;

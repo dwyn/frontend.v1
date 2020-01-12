@@ -123,7 +123,8 @@ class Layout extends React.Component {
                       src={sun}
                       width="16"
                       height="16"
-                      role="presentation"
+                      // role="presentation"
+                      alt=""
                       style={{ pointerEvents: 'none' }}
                     />
                   ),
