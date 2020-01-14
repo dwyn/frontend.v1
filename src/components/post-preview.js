@@ -7,21 +7,21 @@ const PostPreview = ({ hit }) => {
   // const title = hit.frontmatter.title || hit.fields.slug // Not sure I still need this line? Ill keep it for now...
 
   return (
-    <article>
+    <article style={{ marginBottom: rhythm(1 / 8), }}>
       <header>
-        <h3 style={{ marginBottom: rhythm(1 / 4),}}>
+        <h3 style={{ marginBottom: rhythm(1 / 8),}}>
           <Link style={{ boxShadow: `none` }} to={hit.fields.slug}>
             {hit.frontmatter.title}
             <Highlight hit={hit} attribute="title" tagName="mark" />
           </Link>
         </h3>
       
-        <small>{new Date(hit.frontmatter.date).toLocaleDateString()}</small>
+        <medium>{new Date(hit.frontmatter.date).toLocaleDateString()}</medium>
       
       </header>
-      {/* <section>
+      <section>
         <Highlight hit={hit} attribute="excerpt" tagName="mark"/> 
-      </section> */}
+      </section>
     </article>
   )
 }
