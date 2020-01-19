@@ -1,5 +1,6 @@
 body {
-  --pink: rgb(255, 167, 196);
+  --pink: rgb(199, 73, 58);
+  --russian-green: rgb(104, 151, 117);
   background-color: var(--bg);
 }
 
@@ -16,12 +17,11 @@ body.light {
 
 body.dark {
   -webkit-font-smoothing: antialiased;
-
-  /* --bg: #282c35; */
   --bg: #161616;
   --header: #ffffff;
   --textNormal: rgba(255, 255, 255, 0.88);
-  --textTitle: #ffffff;
+  /* --textTitle: #ffffff; */
+  --textTitle: var(--russian-green);
   --textLink: var(--pink);
   --hr: hsla(0, 0%, 100%, 0.2);
   --inlineCode-bg: hsl(0, 0%, 94%);
@@ -46,9 +46,9 @@ pre[class*='language-'] {
   line-height: 1.5;
   margin-bottom: 0;
 
-  -moz-tab-size: 4;
-  -o-tab-size: 4;
-  tab-size: 4;
+  -moz-tab-size: 2;
+  -o-tab-size: 2;
+  tab-size: 2;
 
   -webkit-hyphens: none;
   -moz-hyphens: none;
@@ -140,7 +140,7 @@ pre[class*='language-'] ::selection {
 .token.tag,
 .token.operator,
 .token.keyword {
-  color: #ffa7c4;
+  color: #C7493A;
 }
 
 .token.boolean {
@@ -167,7 +167,7 @@ pre[data-line] {
   margin-left: -1.3125rem;
   padding-right: 1em;
   padding-left: 1.25em;
-  border-left: 0.25em solid #ffa7c4;
+  border-left: 0.25em solid #C7493A;
 }
 
 .gatsby-highlight {
