@@ -25,7 +25,7 @@ class BlogIndex extends React.Component {
         <InstantSearch searchClient={searchClient} indexName="dwayne.fm">
 
           <SearchBox />
-          <Hits hitComponent={ PostPreview } />
+          <Hits hitComponent={PostPreview} />
         </InstantSearch>
         <Footer/>
       </Layout>

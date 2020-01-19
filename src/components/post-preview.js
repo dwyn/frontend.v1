@@ -2,28 +2,28 @@ import React from "react";
 import { Link } from "gatsby";
 import { rhythm } from "../utils/typography"
 import { Highlight } from "react-instantsearch-dom"
+// import CustomHighlight from "./custom-highlight"
 
 const PostPreview = ({ hit }) => {
-  // const title = hit.frontmatter.title || hit.fields.slug // Not sure I still need this line? Ill keep it for now...
+  let exceptSnippet = <section> <Highlight hit={hit} attribute="excerpt" tagName="mark" /> </section>
 
   return (
-    <article style={{ marginBottom: rhythm(1 / 8), }}>
+    <article style={{ marginBottom: rhythm(3/4), }}>
       <header>
-        <h3 style={{ marginBottom: rhythm(1 / 8),}}>
+        <div>
+          <medium style={{ float: 'left', width: '8em', color: '#689775' }}>{new Date(hit.frontmatter.date).toLocaleDateString()}</medium>
+        </div>
+
+        <h3 style={{ marginBottom: rhythm(1 / 16), marginLeft: rhythm(1 / 2), marginTop: 0}}>
           <Link style={{ boxShadow: `none` }} to={hit.fields.slug}>
             {hit.frontmatter.title}
             <Highlight hit={hit} attribute="title" tagName="mark" />
           </Link>
         </h3>
-      
-        <medium>{new Date(hit.frontmatter.date).toLocaleDateString()}</medium>
-      
       </header>
-      <section>
-        <Highlight hit={hit} attribute="excerpt" tagName="mark"/> 
-      </section>
+
     </article>
   )
 }
 
-export default PostPreview
+export default PostPreview;
