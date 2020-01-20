@@ -22,6 +22,7 @@ const PostPreview = ({ hit }) => {
         </h3>
       </header>
 
+      <section style={{ fontStyle: 'italic' }}> { hit.frontmatter.description } </section>
     </article>
   )
 }

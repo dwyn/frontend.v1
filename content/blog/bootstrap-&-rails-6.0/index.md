@@ -15,6 +15,8 @@ What is Webpacker? Whoa, you ask the best questions! It's why I love having you 
 
 Really what I'd like you to take away is that Rails no longer uses [Sprockets](https://stackoverflow.com/questions/31828795/what-sprockets-mean-in-rails) by default. As a result the way we go about implementing Bootstrap is different. &nbsp;  A small example of how this affects us is directory (folder?) structuring. For example we used to have a directory that was structured like this: &nbsp;  <span style="color: crimson;"> app/assets/javascript </span> . &nbsp; Nowadays, it is structured as follows: &nbsp; <span style="color: crimson;">app/javascript`</span>.
 
+<hr>
+
 ## Step 1: Gemfile
 First things first, lets add the Bootstrap gem to our gemfile.
 
@@ -75,6 +77,8 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 <br>
 
 Anywho, after you've updated your Gemfile, run `bundle install` to get the Bootsrap gem installed. 
+
+<br>
 <hr>
 
 ## Step 2: Move sass to Webpack
@@ -116,7 +120,8 @@ You can do so by running &nbsp; `mkdir app/javascript/stylesheets/` &nbsp; from 
   </body>
 </html>
 ```
-
+<br>
+<hr>
 
 ## Step 3: [Yarn](https://engineering.fb.com/web/yarn-a-new-package-manager-for-javascript/)
 
@@ -160,6 +165,9 @@ import "../stylesheets/application";
 <br>
 
 And that's it! For all intents and purposes, Bootstrap is installed and configured with Webpack. When you run your server, you should already notice some differences in font and styling in your app. I'd like to take it a step further with you -- see below!
+
+<br>
+<hr>
 
 ## Bonus: Alerts with Bootstrap
 
@@ -214,11 +222,8 @@ Just keep in mind your options are:
 
 
 
-
+<br>
 <hr>
-<br>
-<br>
-<br>
 
 #### Resources
 
