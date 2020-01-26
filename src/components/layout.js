@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import Toggle from './toggle';
+import Toggle from './Toggle';
 import Helmet from 'react-helmet';
 
 import { rhythm, scale } from '../utils/typography';
@@ -17,7 +17,6 @@ class Layout extends React.Component {
       this.setState({ theme: window.__theme });
     };
   }
-
   renderHeader() {
     const { location, title } = this.props;
     const rootPath = `${__PATH_PREFIX__}/`;
@@ -45,7 +44,7 @@ class Layout extends React.Component {
       );
     } else {
       return (
-        <h3
+        <h3 id='testing'
           style={{
             fontFamily: 'Montserrat, sans-serif',
             marginTop: 0,
@@ -58,8 +57,8 @@ class Layout extends React.Component {
             style={{
               boxShadow: 'none',
               textDecoration: 'none',
-              color: 'rgb(173, 129, 116)',
-            }}
+              color: 'rgb(204, 169, 164)', // indigo? 
+        }}
             to={'/'}
           >
             {title}
@@ -68,7 +67,6 @@ class Layout extends React.Component {
       );
     }
   }
-
   render() {
     const { children } = this.props;
 
@@ -85,7 +83,7 @@ class Layout extends React.Component {
           meta={[
             {
               name: 'theme-color',
-              content: this.state.theme === 'light' ? '#ffa8c5' : '#282c35',
+              content: this.state.theme === 'light' ? '#ffa8c5' : '#',
             },
           ]}
         />
@@ -123,8 +121,7 @@ class Layout extends React.Component {
                       src={sun}
                       width="16"
                       height="16"
-                      // role="presentation"
-                      alt=""
+                      role="presentation"
                       style={{ pointerEvents: 'none' }}
                     />
                   ),

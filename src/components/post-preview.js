@@ -11,7 +11,7 @@ const PostPreview = ({ hit }) => {
     <article style={{ marginBottom: rhythm(3/4), }}>
       <header>
         <div>
-          <medium style={{ float: 'left', width: '8em', color: '#689775' }}>{new Date(hit.frontmatter.date).toLocaleDateString()}</medium>
+          <medium style={{ float: 'left', width: '8em' }}>{new Date(hit.frontmatter.date).toLocaleDateString()}</medium>
         </div>
 
         <h3 style={{ marginBottom: rhythm(1 / 16), marginLeft: rhythm(1 / 2), marginTop: 0}}>
