@@ -225,7 +225,8 @@ section p {
 }
 
 h3, #testing {
-  -webkit-text-stroke: 1px white;
-  /* -webkit-text-stroke-color: white;
-  -webkit-text-stroke-width: 1px; */
+  /* -webkit-text-stroke: 1px white; */
+  /* text-stroke: white; */
+  /* -webkit-text-stroke-color: white; */
+  /* -webkit-text-stroke-width: 1px; */
 }
