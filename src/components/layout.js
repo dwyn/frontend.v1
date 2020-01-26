@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import Toggle from './Toggle';
+import Toggle from './toggle';
 import Helmet from 'react-helmet';
 
 import { rhythm, scale } from '../utils/typography';
@@ -57,8 +57,7 @@ class Layout extends React.Component {
             style={{
               boxShadow: 'none',
               textDecoration: 'none',
-              // color: 'rgb(204, 169, 164)', // indigo? 
-        }}
+            }}
             to={'/'}
           >
             {title}
