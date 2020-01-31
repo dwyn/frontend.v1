@@ -4,6 +4,7 @@ date: "2019-11-25T00:00:00.000Z"
 description: He's a Symptom...
 ---
 
+
 Howdy neighbor🤠! As much as I'd like to dissect the title I don't have it in me to get into that today lol.  Instead I'd like to turn your attention to one way to handle some other symptoms of the times we live in.
 
 ### TL;DR
