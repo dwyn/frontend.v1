@@ -238,7 +238,7 @@ img {
   width: 85%;
 }
 
-div, #dot {
+#dot {
   margin: auto;
   text-align:center;
   font-weight:bold;
