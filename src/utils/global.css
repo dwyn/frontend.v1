@@ -237,3 +237,10 @@ img {
   margin-right: auto;
   width: 85%;
 }
+
+div, #dot {
+  margin: auto;
+  text-align:center;
+  font-weight:bold;
+  font-size:16px;
+}

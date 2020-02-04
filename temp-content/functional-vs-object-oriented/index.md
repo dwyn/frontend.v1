@@ -11,7 +11,7 @@ For me, programming began at approx. 12 years old. My family bought a new Window
 
 I have always been fascinated with all aspects of tech . I mean, how can we not be fascinated with tech!? It has literally infiltrated every aspect of our daily lives. You don’t have to love it, per se. But to never stop and think, “Gee I wonder how a text message works” is bizarre, in my opinion. From reprogramming my RC toy cars, to restyling my MySpace profile pages, I’ve loved it all.
 
-<div id="dot">. . . .</div>
+<br>
 
 Now just because I love me some technology doesn’t mean I was ready for where [Flatiron](flatironschool.com) was taking me. They started with a nice little gateway drug named Ruby, you may have heard of her. I am still fond of her actually. She’s syntactically sweet and just all around really fun to work with. Next thing I know, I am shivering in a dark alley looking for more. More as in anything related to programming that I could get my hands on. I was (read: am) addicted — with no intention on kicking the habit.
 
