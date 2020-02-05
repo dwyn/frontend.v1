@@ -61,7 +61,7 @@ Synchronize Settings, Snippets, Themes, File Icons, Launch, Keybindings, Workspa
 
 
 ___
-# <span id="macos">macOS Apps</span>
+# <span id="macOS">macOS Apps</span>
 
 [Alfred3](https://www.alfredapp.com/)<br>
 Alfred is an award-winning app for macOS which boosts your efficiency with hotkeys, keywords, text expansion and more. Search your Mac and the web, and be more productive with custom actions to control your Mac. Use this. End of dicussion.
