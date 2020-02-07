@@ -5,7 +5,7 @@ description: He's a Symptom...
 ---
 
 
-Howdy neighbor🤠! As much as I'd like to dissect the title I don't have it in me to get into that today lol.  Instead I'd like to turn your attention to one way to handle some other symptoms of the times we live in.
+Howdy neighbor🤠! As much as I'd like to dissect the title, I don't have it in me to get into it today lol. &nbsp; Instead I'd like to turn your attention to one way to handle other symptoms of the times we live in.
 
 ### TL;DR
 You can edit a hosts file on your computer to override default DNS information. Helpful in a few ways. For example you can use the hosts file to block (or work around) spyware and ad networks by "zeroing out" their IP addresses. 
@@ -19,9 +19,9 @@ Please allow me to try my hand at explaining (read: butchering) what a hosts fil
 
 >Domain Name System The Internet's system for converting alphabetic names into numeric IP addresses. For example, when a Web address (URL) is typed into a browser, DNS servers return the IP address of the Web server associated with that name. In this made-up example, the DNS converts the URL www.company.com into the IP address 204.0.8.51. Without DNS, you would have to type the series of four numbers and dots into your browser to retrieve the website, which you actually can do. (Think online yellowpages... but like ipaddresses and urls instead of phone numbers and addresses) [^1]
 
-So, for example, www.dwayne.fm actually translates to 104.248.60.43; www.duckduckgo.com translates to 184.72.104.138. <mark>You can the find the ip address of any website by running </mark> &nbsp; `ping www.name_of_website_.domain` &nbsp; <mark>via command line.</mark> (e.g. `ping www.dwayne.fm`)
-![ping in terminal](ping.png)
+So, for example, www.dwayne.fm actually translates to 104.248.60.43; www.duckduckgo.com translates to 184.72.104.138. <mark>You can the find the ip address of any website by running </mark> &nbsp; `ping www.name_of_website_.domain` &nbsp; <mark>via command line.</mark> (e.g. `ping www.dwayne.fm`) 
 
+![ping in terminal](ping.png)
 
 ### Hosts Files
 As mentioned previously, the Domain Name System and its associated cache is your Mac's standard way of knowing how to get to where it's going on the Internet. That said the hosts file can be used to override the default DNS information. [^2] Almost like having your personal address book for your computer, that supercedes the address book of the World Wild Web.
