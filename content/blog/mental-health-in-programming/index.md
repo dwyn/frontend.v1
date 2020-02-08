@@ -4,17 +4,17 @@ date: "2020-02-05T00:00:00.001Z"
 description: Healtier brain == better code
 ---
 
-Hai friend! Mental health is such a broad topic that I wasn't sure where to begin or how deep I should go. I've decided to at least reflect on behaviors that I believe every developer should strive for -- while leaving plenty of room for you to tailor your experience to your preferences.
+Hai friend! Mental health is such a broad topic, I wasn't sure where to begin or how deep I should go. I've decided to at least reflect on behaviors that I believe every developer should strive for -- while leaving plenty of room for you to tailor your experience to your preferences.
 
 ## Mental Health
 I found [this article](https://codinginflow.com/healthy-programmer) to be somewhat helpful, in that it summarized trends I've noticed in tech spaces over the years. More importantly I'd like to speak to examples of how some of these habits have helped me directly. Let's dive in, in no particular order: 
 
 #### Take Regular Breaks
-Let's thinking of your brain as a muscle. With that in mind let's compare it to another muscle (or group of muscles), say your legs. How many times in a row could you run a 100 meter dash at maximum effort? If we are being honest, the answer is 1. You MIGHT be able to run one sprint before you need a break and can try again. Sidenote: I don't know that I can actually sprint 100 meters right now if I am going to be completely honest, but whatevs.
+Let's think of your brain as a muscle. With that in mind let's compare it to another muscle (or group of muscles), say your legs. How many times can you run a 100 meter dash, at maximum effort, consecutively? If we are being honest, the answer is probably 1 (at maximum effort). You *MIGHT* be able to run one sprint before you need a break and can try again. Sidenote: I don't know that I can actually sprint 100 meters right now if I am going to be completely honest, but whatevs.  <talk about what sprinting fatigue looks like here>
 
-So for staying on top of breaks between sprint intervals, the [Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Technique) has helped out a lot. Taking it a step further, the macOS app [Be Focused Pro](https://itunes.apple.com/us/app/be-focused-pro-focus-timer/id961632517?mt=12) has been really really helpful in automating breaks. 
+So for staying on top of breaks between coding intervals at maxiumum effort, the [Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Technique) has helped out a lot. Taking it a step further, the macOS app [Be Focused Pro](https://itunes.apple.com/us/app/be-focused-pro-focus-timer/id961632517?mt=12) has been really really helpful in automating breaks. 
 
-Simply put, your brain needs air; your brain needs rest just like anything else in your body. E S P E C I A L L Y when you have been working it as hard as you have. When you deny your brain rest, it doesn't show in the same ways it would show in other work outs. You dont sweat, or pant. You miss commas, have a lot of typos, cant detect spelling errors etc. The brain works in mysterious ways.
+Simply put, your brain needs air; your brain needs rest just like anything else in your body. &nbsp; E S P E C I A L L Y &nbsp; when you have been working very hard. When you deny your brain rest, it doesn't show in the same ways it would show in other work outs. You dont sweat, or pant. You miss commas, typos creep in to your work, you cant detect spelling errors as quickly etc. The brain works in mysterious ways.
 
 #### Get Some Exercise
 I purposefully put this one second after mentioning taking regular breaks. If you are using the Pomodoro Technique, you get a longer break after a few short breaks (That'll make more sense after you looked into the technique itself.) Anywho, when you land on a longer break cycle, try doing some light exercises to get the blood flowing. Situps, a brisk walk, stairs, something, anything.
