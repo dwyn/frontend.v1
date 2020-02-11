@@ -55,7 +55,7 @@ Simply put, your body is a machine. Let's say that machine is a Ferrari. Would y
 
 ![posture](posture.png)
 
-Check out [the article linked above](https://codinginflow.com/healthy-programmer), or [this article](https://blog.codinghorror.com/computer-workstation-ergonomics/) or the graphic below on ergonomics at your work station. Simply put, you spend 40+ hours a week seated in, and stationary while programming. It is of the utmost importance that you are setting your body up for success in _how_ you position yourself at your desk.. 
+Check out [the article linked above](https://codinginflow.com/healthy-programmer), [this article](https://blog.codinghorror.com/computer-workstation-ergonomics/), or the graphic below on ergonomics at your work station. Simply put, you spend 40+ hours a week seated in, and stationary while programming. It is of the utmost importance that you are setting your body up for success in _how_ you position yourself at your desk.. 
 
 ![ergonomics](ergonomics.png)
 
