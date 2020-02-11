@@ -70,7 +70,8 @@ I do have one recommendation that I feel very strongly about, and thats the [Var
 
 lmao whats a sleep? I am the worst at sleeping habits so I wont try to preach to you on this. I can just tell you have seen monumental gains in productivity when I get enough rest. That said, I have been pretty good about teaching myself to get adequate rest (I am a night owl AND an early bird. I know). However, I haven't been good about going to bed at the same time every night. 
 
-I  l o v e  [this article](https://simpleprogrammer.com/good-nights-rest/) on healthy sleep habits. Be sure to check it out and let me know what you think!
+I  &nbsp; l o v e  &nbsp; [this article](https://simpleprogrammer.com/good-nights-rest/) on healthy sleep habits. Be sure to check it out and let me know what you think!
 
+<p id="dot"> . &nbsp;  . &nbsp; . </p>
 
-In conclusion, as devs or aspiring devs, while you are learning to hack applications, learn how to hack yourselves as well. Making some small minor adjustments and running some tests to verify change should yield some interesting results. Find ways to programmatically be better to yourself. 
+In conclusion, as devs, while you are learning to hack applications, learn how to hack yourselves as well. Making minor adjustments and running some tests to verify change ought to yield interesting results in your prograing performance. Find ways to be better to yourself, your body will thank you for it♥️
