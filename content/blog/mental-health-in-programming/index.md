@@ -55,7 +55,7 @@ Simply put, your body is a machine. Let's say that machine is a Ferrari. Would y
 
 ![posture](posture.png)
 
-Check out [the article linked above](https://codinginflow.com/healthy-programmer), [this article](https://blog.codinghorror.com/computer-workstation-ergonomics/), or the graphic below on ergonomics at your work station. Simply put, you spend 40+ hours a week seated in, and stationary while programming. It is of the utmost importance that you are setting your body up for success in _how_ you position yourself at your desk.. 
+Check out [the article linked above](https://codinginflow.com/healthy-programmer), [this article](https://blog.codinghorror.com/computer-workstation-ergonomics/), or the graphic below on ergonomics at your work station. Simply put, you spend 40+ hours a week seated in, and stationary while programming. It is of the utmost importance that you are setting your body up for success in _how_ you position yourself at your desk.
 
 ![ergonomics](ergonomics.png)
 
@@ -73,5 +73,6 @@ lmao whats a sleep? I am the worst at sleeping habits so I wont try to preach to
 I  &nbsp; l o v e  &nbsp; [this article](https://simpleprogrammer.com/good-nights-rest/) on healthy sleep habits. Be sure to check it out and let me know what you think!
 
 <p id="dot"> . &nbsp;  . &nbsp; . </p>
+<br>
 
 In conclusion, as devs, while you are learning to hack applications, learn how to hack yourselves as well. Making minor adjustments and running some tests to verify change ought to yield interesting results in your prograing performance. Find ways to be better to yourself, your body will thank you for it♥️
