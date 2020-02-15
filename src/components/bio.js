@@ -50,7 +50,11 @@ const Bio = () => {
         }}
       />
 
-      <div>
+      <div style={{
+        fontSize: '15pt',
+        fontFamily: 'BentonSans Light',
+        lineHeight: 'normal'
+    }}>
         <Typist
           avgTypingDelay={50} 
           startDelay={100}
@@ -60,6 +64,7 @@ const Bio = () => {
             blink: true,
             element: '▍',
           }}
+
         >
           Musings. &nbsp;<Typist.Delay ms={400} />
           Music. &nbsp;<Typist.Delay ms={400} />

@@ -39,6 +39,18 @@ Wordpress2016.overrideThemeStyles = () => ({
   'blockquote.translation': {
     fontSize: '1em',
   },
+  section: {
+    fontSize: '16pt',
+    fontFamily: 'BentonSans Light, sans- serif'
+  },
+  medium: {
+    fontSize: '13pt',
+    fontFamily: 'BentonSans Light, sans- serif'
+  },
+  footer: {
+    fontSize: '13pt',
+    fontFamily: 'BentonSans Light, sans- serif'
+  }
 });
 
 delete Wordpress2016.googleFonts;
