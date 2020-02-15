@@ -1,7 +1,7 @@
 ---
 title: Mental Health & Programming
 date: "2020-02-05T00:00:00.001Z"
-description: Healtier brain == better code
+description: Healthy brain --> better code
 ---
 
 Hai friend! Mental health is such a broad topic, I wasn't sure where to begin or how deep I should go. I've decided to at least reflect on behaviors that I believe every developer should strive for -- while leaving plenty of room for you to tailor your experience to your preferences.
@@ -66,7 +66,7 @@ I do have one recommendation that I feel very strongly about, and thats the [Var
 
 ### Sleep
 
-![sleep](schleep.png)
+ ![sleep](schleep.png)
 
 lmao whats a sleep? I am the worst at sleeping habits so I wont try to preach to you on this. I can just tell you have seen monumental gains in productivity when I get enough rest. That said, I have been pretty good about teaching myself to get adequate rest (I am a night owl AND an early bird. I know). However, I haven't been good about going to bed at the same time every night. 
 
@@ -75,4 +75,4 @@ I  &nbsp; l o v e  &nbsp; [this article](https://simpleprogrammer.com/good-night
 <p id="dot"> . &nbsp;  . &nbsp; . </p>
 <br>
 
-In conclusion, as devs, while you are learning to hack applications, learn how to hack yourselves as well. Making minor adjustments and running some tests to verify change ought to yield interesting results in your prograing performance. Find ways to be better to yourself, your body will thank you for it♥️
+In conclusion, as devs, while you are learning to hack applications, learn how to hack yourselves as well. Making minor adjustments and running some tests to verify change ought to yield interesting results in your programing performance. Find ways to be better to yourself, your body will thank you for it♥️

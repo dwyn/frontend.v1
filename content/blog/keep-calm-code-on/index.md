@@ -15,7 +15,6 @@ I have always been fascinated with all aspects of tech . I mean, how can we no
 
 <p id="dot"> . &nbsp;  . &nbsp; . </p>
 <br>
-<br>
 
 Now just because I love me some technology doesn’t mean I was ready for where [Flatiron](flatironschool.com) was taking me. They started with a nice little gateway drug named Ruby, you may have heard of her. I am still fond of her actually. She’s syntactically sweet and just all around really fun to work with. Next thing I know, I am shivering in a dark alley looking for more. More as in anything related to programming that I could get my hands on. I was (read: am) addicted — with no intention on kicking the habit.
 
@@ -26,7 +25,6 @@ Programming was, and still is very hard, to say the least; programming was, and 
 Taking it a step further: There came a point where the Rails section of the Flatiron School curriculum was kicking. my. butt. So I took a break from it all, and decided to go build a Rails app incorporating what I had learned thus far. Now, I personally learn in a specific manner. Things gel a little harder / cement quicker when I am able to put them in context. So while Flatiron was taking the time to teach the intricacies of specific and abstract concepts, I was getting frustrated with not knowing how said concepts applied to the real world. I took a a break from Flatiron and followed a couple of code-alongs I found on the interwebs which basically landed me with my very first (and super simple) Rails app! &nbsp; In any event, when I returned to the Flatiron curriculum, I returned like a B O S S!!! That ‘break’ for perspective was exactly what I needed. I was sooo comfortable with Rails moving forward. Had I mastered Rails? No way, not by a long shot! But I understood it completely differently, and was a better programmer because of it.
 
 <p id="dot"> . &nbsp;  . &nbsp; . </p>
-<br>
 <br>
 
 Which brings me to my point: In the past when feeling defeated by programming, I would close my laptop and not return to it for days, sometimes weeks at a time. It wasn’t an intentional strategy on my part. In retrospect I believe I was experiencing a great deal of trauma with not understanding certain concepts and just feeling stuck. So I started to associate pain with my laptop (clearly I was too stubborn to reach out for help!). In present day, I’ve learned to embrace that “pain” as it’s usually temporary. In present day I have learned to take a step back from what is blocking me; close my laptop, go for a 15 minute walk and return to read or write about what I am struggling with. Even if I am only writing for myself, its good to get thoughts down. I take breaks from programming to pseudo-code, and that helps a great deal! I take breaks from programming and read blog posts about programming. I take breaks from programming to go learn something new (unrelated to whatever I am working on at that moment) that I have been meaning to check out. I even take breaks to go help a Flatiron students or friends out with anything they are stuck on. Even if I don’t necessarily know how to help, it gives us a chance to learn together! (easily one of my favorites!)
