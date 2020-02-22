@@ -39,7 +39,7 @@ Wordpress2016.overrideThemeStyles = () => ({
   'blockquote.translation': {
     fontSize: '1em',
   },
-  section: {
+  'section, p': {
     fontSize: '16pt',
     fontFamily: 'BentonSans Light, sans- serif'
   },
