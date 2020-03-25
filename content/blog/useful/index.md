@@ -4,13 +4,13 @@ date: "2019-09-20T00:00:00.000Z"
 description: Tidbits I looovvee!
 ---
 
-Hello neighbor. I must say, I am really excited about having one place to store all of the things I want to share with the world. I share a little on [instagram](https://www.instagram.com/dwyn/); a little on [Twitter](https://twitter.com/dwyn); I have [a few gists](https://gist.github.com/dwyn) with useful information; I have a few [repos](https://github.com/dwyn) with useful code. But [dwayne.fm](https://dwayne.fm) has been / will be great for keeping things in one place and organized😊
+Hello neighbor. I must say, I am really excited about having one place to store all of the things I want to share with the world. I share a little on [instagram](https://www.instagram.com/dwyn/); a little on [Twitter](https://twitter.com/dwyn); I have [a few gists](https://gist.github.com/dwyn) with some relatively useful information; I have a few [repos](https://github.com/dwyn) with useful code. But [dwayne.fm](https://dwayne.fm) has been / will be great for keeping things in one place and organized😊
 
-Anywho, these are some useful tidbits that I've found helpful in my journey to transhumanism... I mean becoming a stellar engineer. Feel free to use what you like, give me feedback on what you hate and most certainly share what you love! As always Ill continue to update as neccessary.
+Anywho, here are some useful tidbits that I've found helpful in my journey to transhumanism... I mean becoming a stellar engineer. Feel free to use what you like, give me feedback on what you hate and most certainly share what you love! As always Ill continue to update as necessary.
 
 
 ### Jump to a Section
-+ [VSCpde Extensions](#vscode)
++ [VSCode Extensions](#vscode)
 + [macOS Apps](#macOS)
 + [Awesome Fonts](#fonts)
 + [Awesome Resources for Programming](#resources)
@@ -29,7 +29,7 @@ The Better Comments extension will help you create more human-friendly comments 
 
 
 [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)<br>
-This extension allows matching brackets to be identified with colours. The user can define which characters to match, and which colours to use. I don't love using curly braces for everything. Colorcoding them helps a bit. (If for nothing else, helps with prettiness)
+This extension allows matching brackets to be identified with colours. The user can define which characters to match, and which colours to use. I don't love using curly braces for everything. Color coding them helps a bit. (If nothing else, helps with prettiness)
 
 
 [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)<br>
@@ -87,7 +87,7 @@ The Best System-wide Volume Booster with 3D Surround Sound. Boom is just a great
 The Be Focused lets you get things done by breaking up individual tasks among discrete intervals, separated by short breaks. [Pomodoro Technique anyone!?](https://en.wikipedia.org/wiki/Pomodoro_Technique)
 
 [Cheat Sheet](https://www.mediaatelier.com/CheatSheet/)<br>
-Just hold the ⌘-Key a bit longer to get a list of all active short cuts of the current application. It's as simple as that. So useful - The cheatsheet will change depending on what app you hold ⌘ in! It's wonderful. 
+Just hold the ⌘-Key a bit longer to get a list of all active short cuts of the current application. It's as simple as that. So useful - The cheat-sheet will change depending on what app you hold ⌘ in! It's wonderful. 
 
 
 [CopyClip2](https://itunes.apple.com/us/app/copyclip-2-clipboard-manager/id1020812363?mt=12)<br>
@@ -104,7 +104,7 @@ Every time you move a content from one app to the other, compare data side by si
 
 
 [Quiver](https://itunes.apple.com/us/app/quiver-take-better-notes/id866773894?mt=12)<br>
-Quiver is a notebook built for programmers. It lets you easily mix text, code, Markdown and LaTeX within one note, edit code with an awesome code editor, live preview Markdown and LaTeX, and find any note instantly via the full-text search. I dont use this as much as I used to, but its a great app.
+Quiver is a notebook built for programmers. It lets you easily mix text, code, Markdown and LaTeX within one note, edit code with an awesome code editor, live preview Markdown and LaTeX, and find any note instantly via the full-text search. I don't use this as much as I used to, but its a great app.
 
 
 [SpotMenu](https://github.com/kmikiy/SpotMenu)<br>
