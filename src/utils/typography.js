@@ -5,52 +5,53 @@ import Typography from 'typography';
 import Wordpress2016 from 'typography-theme-wordpress-2016';
 
 Wordpress2016.overrideThemeStyles = () => ({
-  a: {
-    color: 'var(--textLink)',
-  },
-  hr: {
-    background: 'var(--hr)',
-  },
-  'a.gatsby-resp-image-link': {
-    boxShadow: 'none',
-  },
-  // These two are for gatsby-remark-autolink-headers:
-  'a.anchor': {
-    boxShadow: 'none',
-  },
-  'a.anchor svg[aria-hidden="true"]': {
-    stroke: 'var(--textLink)',
-  },
-  'p code': {
-    fontSize: '1rem',
-  },
-  // TODO: why tho
-  'h1 code, h2 code, h3 code, h4 code, h5 code, h6 code': {
-    fontSize: 'inherit',
-  },
-  'li code': {
-    fontSize: '1rem',
-  },
-  blockquote: {
-    color: 'inherit',
-    borderLeftColor: 'inherit',
-    opacity: '0.8',
-  },
-  'blockquote.translation': {
-    fontSize: '1em',
-  },
-  'section, p': {
-    fontSize: '16pt',
-    fontFamily: 'BentonSans Light, sans- serif'
-  },
-  medium: {
-    fontSize: '13pt',
-    fontFamily: 'BentonSans Light, sans- serif'
-  },
-  footer: {
-    fontSize: '13pt',
-    fontFamily: 'BentonSans Light, sans- serif'
-  }
+    a: {
+        color: 'var(--textLink)',
+    },
+    hr: {
+        background: 'var(--hr)',
+    },
+    'a.gatsby-resp-image-link': {
+        boxShadow: 'none',
+    },
+    // These two are for gatsby-remark-autolink-headers:
+    'a.anchor': {
+        boxShadow: 'none',
+    },
+    'a.anchor svg[aria-hidden="true"]': {
+        stroke: 'var(--textLink)',
+    },
+    'p code': {
+        fontSize: '.85rem',
+    },
+    // TODO: why tho
+    'h1 code, h2 code, h3 code, h4 code, h5 code, h6 code': {
+        fontSize: 'inherit',
+    },
+    'li code': {
+        // fontSize: '1rem',
+        fontSize: '.85rem',
+    },
+    blockquote: {
+        color: 'inherit',
+        borderLeftColor: 'inherit',
+        opacity: '0.8',
+    },
+    'blockquote.translation': {
+        fontSize: '.85em',
+    },
+    'section, p': {
+        fontSize: '.85rem',
+        fontFamily: 'BentonSans Light, sans- serif'
+    },
+    medium: {
+        fontSize: '.85rem',
+        fontFamily: 'BentonSans Light, sans- serif'
+    },
+    footer: {
+        fontSize: '.70rem',
+        fontFamily: 'BentonSans Light, sans- serif'
+    }
 });
 
 delete Wordpress2016.googleFonts;
@@ -59,7 +60,7 @@ const typography = new Typography(Wordpress2016);
 
 // Hot reload typography in development.
 if (process.env.NODE_ENV !== 'production') {
-  typography.injectStyles();
+    typography.injectStyles();
 }
 
 export default typography;
