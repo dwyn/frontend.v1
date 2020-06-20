@@ -42,15 +42,15 @@ Wordpress2016.overrideThemeStyles = () => ({
     },
     'section, p': {
         fontSize: '.85rem',
-        fontFamily: 'BentonSans Light, sans- serif'
+        fontFamily: 'BentonSans Light, sans-serif'
     },
     medium: {
         fontSize: '.85rem',
-        fontFamily: 'BentonSans Light, sans- serif'
+        fontFamily: 'BentonSans Light, sans-serif'
     },
     footer: {
         fontSize: '.70rem',
-        fontFamily: 'BentonSans Light, sans- serif'
+        fontFamily: 'BentonSans Light, sans-serif'
     }
 });
 
