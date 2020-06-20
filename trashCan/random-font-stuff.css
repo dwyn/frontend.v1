@@ -1,0 +1,107 @@
+/* 
+Value	Common weight name
+100		Thin (Hairline)
+200		Extra Light (Ultra Light)
+300		Light
+400		Normal (Regular)
+500		Medium
+600		Semi Bold (Demi Bold)
+700		Bold
+800		Extra Bold (Ultra Bold)
+900		Black (Heavy)
+950		Extra Black (Ultra Black) 
+*/
+
+/* Fonts are copy pasted from Google styles, + font-display: swap; */
+
+/* merriweather-400normal - latin */
+/* @font-face {
+  font-display: swap;
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  src: url(./files/merriweather-400-l.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+/* montserrat-900normal - latin */
+/* @font-face {
+  font-display: swap;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 900;
+  src: url(./files/montserrat-900-l.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+} */
+
+/* @font-face {
+  font-display: swap;
+  font-family: 'BentonSans Light';
+  font-style: normal;
+  font-weight: 600;
+  src: url(./files/BentonSansLight.otf) format('otf');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+} */
+
+/* @font-face {
+  font-display: swap;
+  font-family: 'BentonSans Condensed Regular';
+  font-style: normal;
+  font-weight: 900;
+  src: url(./files/BentonSansCondRegular.otf) format('otf');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+} */
+
+/* Fonts are copy pasted from Google styles, + font-display: swap; */
+
+/* merriweather-400italic - latin */
+/* @font-face {
+  font-display: swap;
+  font-family: 'Merriweather';
+  font-style: italic;
+  font-weight: 400;
+  src: url(./files/merriweather-400-i-l.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+} */
+/* merriweather-700normal - latin */
+/* @font-face {
+  font-display: swap;
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 700;
+  src: url(./files/merriweather-700-l.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+} */
+/* merriweather-700italic - latin */
+/* @font-face {
+  font-display: swap;
+  font-family: "Merriweather";
+  font-style: italic;
+  font-weight: 700;
+  src: url(./files/merriweather-700-i-l.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+} */
+
+@font-face {
+  font-display: swap;
+  font-family: "CHICKEN Pie";
+  font-style: block;
+  font-weight: 900;
+  src: url(./files/CHICKEN-Pie.ttf) format("ttf");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}

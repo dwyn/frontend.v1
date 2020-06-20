@@ -69,7 +69,7 @@ module.exports = {
     },
     
     {
-      resolve: `gatsby-transformer-remark`,
+      resolve: `gatsby-transformer-remark`,  // parses markdown files to get useful information
       options: {
         plugins: [
           // `gatsby-remark-prismjs`,

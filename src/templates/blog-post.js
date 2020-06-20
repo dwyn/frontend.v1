@@ -22,6 +22,11 @@ class BlogPostTemplate extends React.Component {
           <header>
             <h1
               style={{
+                fontFamily: 'BentonSans Condensed Regular, sans-serif',
+                // marginTop: 0,
+                // marginBottom: 0,
+                // height: 42, // because
+                // lineHeight: '2.625rem',
                 marginTop: rhythm(1),
                 marginBottom: 0,
               }}

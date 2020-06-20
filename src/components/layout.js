@@ -11,12 +11,14 @@ class Layout extends React.Component {
   state = {
     theme: null,
   };
+
   componentDidMount() {
     this.setState({ theme: window.__theme });
     window.__onThemeChange = () => {
       this.setState({ theme: window.__theme });
     };
   }
+  
   renderHeader() {
     const { location, title } = this.props;
     const rootPath = `${__PATH_PREFIX__}/`;
