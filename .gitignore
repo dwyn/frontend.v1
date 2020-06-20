@@ -68,3 +68,4 @@ yarn-error.log
 
 
 # Ignore Pending Posts
+.env.production
