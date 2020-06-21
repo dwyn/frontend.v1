@@ -5,7 +5,7 @@ import { Highlight } from "react-instantsearch-dom"
 // import CustomHighlight from "./custom-highlight"
 
 const PostPreview = ({ hit }) => {
-  let exceptSnippet = <section> <Highlight hit={hit} attribute="excerpt" tagName="mark" /> </section>
+  //let excerptSnippet = <section> <Highlight hit={hit} attribute="excerpt" tagName="mark" /> </section>
 
   return (
     <article style={{ marginBottom: rhythm(3/4), }}>
