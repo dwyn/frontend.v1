@@ -164,6 +164,9 @@ export default class Toggle extends PureComponent {
       <div
         className={classes}
         onClick={this.handleClick}
+        onKeyPress={() => console.info('This should be replaced with an appropriate key press handler!')}
+        role="button"
+        tabIndex="0"
         onTouchStart={this.handleTouchStart}
         onTouchMove={this.handleTouchMove}
         onTouchEnd={this.handleTouchEnd}
