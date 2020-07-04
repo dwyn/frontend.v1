@@ -8,7 +8,7 @@ const PostPreview = ({ hit }) => {
   // let exceptSnippet = <section> <Highlight hit={hit} attribute="excerpt" tagName="mark" /> </section>
   return (
     <article style={{
-      height: '3.5em',
+      height: '4em', // Need to figure out a better solution here
       marginBottom: rhythm(3/4),
       display: 'flex'
     }}>
@@ -18,14 +18,13 @@ const PostPreview = ({ hit }) => {
           paddingTop: '.20em',
           width: '8em',
           fontFamily: 'Muli, sans-serif',
-          fontSize: '.85em',
-          // fontStyle: 'italic'
         }}>
+        
           {new Date(hit.frontmatter.date).toLocaleDateString()}
         </div>
       
       <header style={{
-        flex: '50%',
+        // flex: '50%',
       }}>
         
         <h3 style={{
