@@ -15,7 +15,8 @@ const PostPreview = ({ hit }) => {
       
         <div style={{
           float: 'left',
-          paddingTop: '.20em',
+          paddingTop: '.10em',
+          fontSize: '.95em',
           width: '8em',
           fontFamily: 'Muli, sans-serif',
         }}>
