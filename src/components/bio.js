@@ -51,8 +51,7 @@ const Bio = () => {
       />
 
       <div style={{
-        fontSize: '15pt',
-        fontFamily: 'BentonSans Light',
+        fontFamily: 'Muli, sans-serif',
         lineHeight: 'normal'
     }}>
         <Typist

@@ -18,9 +18,9 @@ Wordpress2016.overrideThemeStyles = () => ({
     'a.anchor': {
         boxShadow: 'none',
     },
-    'a.anchor svg[aria-hidden="true"]': {
-        stroke: 'var(--textLink)',
-    },
+    // 'a.anchor svg[aria-hidden="true"]': {
+    //     stroke: 'var(--textLink)',
+    // },
     'p code': {
         fontSize: '.85rem',
     },
@@ -40,14 +40,27 @@ Wordpress2016.overrideThemeStyles = () => ({
     'blockquote.translation': {
         fontSize: '.85em',
     },
+
+    'h2': {
+        fontFamily: 'Josefin, sans-serif',
+    },
+
+    'h3': {
+        fontFamily: 'Josefin, sans-serif',
+    },
+
+    'h4': {
+        fontFamily: 'Josefin, sans-serif',
+    },
+
     'section, p': {
-        fontSize: '.85rem',
-        fontFamily: 'BentonSans Light, sans-serif'
+        fontSize: '20px',
+        fontFamily: 'Muli, sans-serif'
     },
-    medium: {
-        fontSize: '.85rem',
-        fontFamily: 'BentonSans Light, sans-serif'
-    },
+    // medium: {
+    //     fontSize: '.85rem',
+    //     fontFamily: 'BentonSans Light, sans-serif'
+    // },
     footer: {
         fontSize: '.70rem',
         fontFamily: 'BentonSans Light, sans-serif'

@@ -7,24 +7,45 @@ import { Highlight } from "react-instantsearch-dom"
 const PostPreview = ({ hit }) => {
   // let exceptSnippet = <section> <Highlight hit={hit} attribute="excerpt" tagName="mark" /> </section>
   return (
-    <article style={{ marginBottom: rhythm(3/4), }}>
-        <div>
-          <medium style={{ float: 'left', width: '8em' }}>{new Date(hit.frontmatter.date).toLocaleDateString()}</medium>
+    <article style={{
+      height: '3.5em',
+      marginBottom: rhythm(3/4),
+      display: 'flex'
+    }}>
+      
+        <div style={{
+          float: 'left',
+          paddingTop: '.20em',
+          width: '8em',
+          fontFamily: 'Muli, sans-serif',
+          fontSize: '.85em',
+          // fontStyle: 'italic'
+        }}>
+          {new Date(hit.frontmatter.date).toLocaleDateString()}
         </div>
       
-      <header>
-          <h3 style={{
-            marginBottom: rhythm(1 / 16),
-            marginLeft: rhythm(1 / 2),
-            marginTop: 0,
-            fontFamily: 'BentonSans Condensed Regular, sans-serif', 
-          }}>
-            <Link style={{ boxShadow: `none` }} to={hit.fields.slug}>
+      <header style={{
+        flex: '50%',
+      }}>
+        
+        <h3 style={{
+          marginBottom: rhythm(1 / 16),
+          fontFamily: 'Josefin, sans-serif',
+          marginTop: 0,
+        }}>
+          
+          <Link style={{ boxShadow: `none` }} to={hit.fields.slug}>
               {hit.frontmatter.title}
               <Highlight hit={hit} attribute="title" tagName="mark" />
             </Link>
-          </h3>
-          <section style={{ fontStyle: 'italic', marginLeft: '6.5em'}}> {hit.frontmatter.description} </section>
+        </h3>
+        
+        <section style={{
+          fontFamily: 'Muli Italic, sans-serif',
+          fontSize: '.95em',
+          fontStyle: 'italic',
+          // fontSize: '.95em'
+        }}> {hit.frontmatter.description} </section>
 
       </header>
     </article>

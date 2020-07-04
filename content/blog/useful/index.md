@@ -96,6 +96,9 @@ All-in-one workspace. Write, plan, collaborate, and get organized — all in one
 [SpotMenu](https://github.com/kmikiy/SpotMenu)<br>
 Spotify and iTunes in your menu bar. Because music, and everything relating to it, is important.
 
+[Stretchly](https://hovancik.net/stretchly/downloads/)<br>
+Stretchly is cross-platform open source app that reminds you to take breaks when working with computer. hashtag: Pomodoro Technique. hashtag: be healthy. hashtag: stay healthy.
+
 <br>
 <br>
 
