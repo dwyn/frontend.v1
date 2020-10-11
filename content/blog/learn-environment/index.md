@@ -1,5 +1,5 @@
 ---
-title: Learn MacOS Environment Set Up
+title: MacOS::Flatiron Local Environment
 date: "2019-11-01T00:00:00.001Z"
 description: New to Flatiron? This may help.
 ---

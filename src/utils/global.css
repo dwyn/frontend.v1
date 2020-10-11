@@ -214,7 +214,7 @@ section p {
     z-index: 3;
     height: 40px;
     margin: 0 auto;
-    min-width: 100%;
+    min-width: 80%;
     outline: none;
     margin-bottom: 3.5rem;
 }

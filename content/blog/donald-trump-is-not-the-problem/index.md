@@ -1,7 +1,7 @@
 ---
-title: Donald Trump Is Not The Problem
+title: "Symptom: Donald Trump"
 date: "2019-11-25T00:00:00.000Z"
-description: He's a Symptom...
+description: What's the real Problem?
 ---
 
 
