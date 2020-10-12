@@ -4,15 +4,21 @@ import { rhythm } from "../utils/typography"
 import { Highlight } from "react-instantsearch-dom"
 // import CustomHighlight from "./custom-highlight"
 
+// React Bootstrap
+// import { Nav } from 'react-bootstrap';
+
 const PostPreview = ({ hit }) => {
   // let exceptSnippet = <section> <Highlight hit={hit} attribute="excerpt" tagName="mark" /> </section>
   return (
+    
     <article style={{
       height: '4em', // Need to figure out a better solution here
       marginBottom: rhythm(3/4),
       display: 'flex'
     }}>
-      
+      {/* <Card>
+        <Card.Body>This is some text within a card body.</Card.Body>
+      </Card>   */}
         <div style={{
           float: 'left',
           paddingTop: '.10em',

@@ -7,6 +7,9 @@ import { rhythm, scale } from '../utils/typography';
 import sun from '../assets/sun.png';
 import moon from '../assets/moon.png';
 
+// React Bootstrap
+// import { Nav } from 'react-bootstrap';
+
 class Layout extends React.Component {
   state = {
     theme: null,
@@ -72,6 +75,7 @@ class Layout extends React.Component {
     const { children } = this.props;
 
     return (
+      
       <div
         style={{
           color: 'var(--textNormal)',

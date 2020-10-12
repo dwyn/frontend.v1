@@ -11,6 +11,10 @@ import 'prismjs/themes/prism-coy.css'
 import algoliasearch from 'algoliasearch/lite';
 import { InstantSearch, SearchBox, Hits } from 'react-instantsearch-dom';
 
+// React Bootstrap
+// import 'bootstrap/dist/css/bootstrap.min.css';
+import { Container } from 'react-bootstrap';
+
 const searchClient = algoliasearch('NNL7N3L2O7', 'cff43c48ea33c25a57931077fa7742a5');
 
 class BlogIndex extends React.Component {
@@ -18,17 +22,17 @@ class BlogIndex extends React.Component {
     const { data } = this.props
     const siteTitle = data.site.siteMetadata.title
     return (
-      <Layout location={this.props.location} title={siteTitle}>
-        <SEO title="All posts" />
-        <Bio />
-
-        <InstantSearch searchClient={searchClient} indexName="dwayne.fm">
-
-          <SearchBox />
-          <Hits hitComponent={PostPreview} />
-        </InstantSearch>
-        <Footer/>
-      </Layout>
+      <Container fluid>
+        <Layout location={this.props.location} title={siteTitle}>
+          <SEO title="All posts" />
+          <Bio />
+          <InstantSearch searchClient={searchClient} indexName="dwayne.fm">
+          {/* <SearchBox /> */}
+            <Hits hitComponent={PostPreview} />
+          </InstantSearch>
+          <Footer/>
+        </Layout>
+      </Container>
     )
   }
 }

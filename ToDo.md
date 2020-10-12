@@ -5,4 +5,3 @@
 3. Add social media icons to bio component
 4. Change fonts
 5. Make site slightly responsive
-
