@@ -5,66 +5,66 @@ import Typography from 'typography';
 import Wordpress2016 from 'typography-theme-wordpress-2016';
 
 Wordpress2016.overrideThemeStyles = () => ({
-    a: {
-        color: 'var(--textLink)',
-    },
-    hr: {
-        background: 'var(--hr)',
-    },
-    'a.gatsby-resp-image-link': {
-        boxShadow: 'none',
-    },
-    // These two are for gatsby-remark-autolink-headers:
-    'a.anchor': {
-        boxShadow: 'none',
-    },
-    // 'a.anchor svg[aria-hidden="true"]': {
-    //     stroke: 'var(--textLink)',
+    // a: {
+    //     color: 'var(--textLink)',
     // },
-    'p code': {
-        fontSize: '.85rem',
-    },
-    // TODO: why tho
-    'h1 code, h2 code, h3 code, h4 code, h5 code, h6 code': {
-        fontSize: 'inherit',
-    },
-    'li code': {
-        // fontSize: '1rem',
-        fontSize: '.85rem',
-    },
-    blockquote: {
-        color: 'inherit',
-        borderLeftColor: 'inherit',
-        opacity: '0.8',
-    },
-    'blockquote.translation': {
-        fontSize: '.85em',
-    },
-
-    'h2': {
-        fontFamily: 'Josefin, sans-serif',
-    },
-
-    'h3': {
-        fontFamily: 'Josefin, sans-serif',
-    },
-
-    'h4': {
-        fontFamily: 'Josefin, sans-serif',
-    },
-
-    'section, p': {
-        fontSize: '20px',
-        fontFamily: 'Muli, sans-serif'
-    },
-    // medium: {
+    // hr: {
+    //     background: 'var(--hr)',
+    // },
+    // 'a.gatsby-resp-image-link': {
+    //     boxShadow: 'none',
+    // },
+    // // These two are for gatsby-remark-autolink-headers:
+    // 'a.anchor': {
+    //     boxShadow: 'none',
+    // },
+    // // 'a.anchor svg[aria-hidden="true"]': {
+    // //     stroke: 'var(--textLink)',
+    // // },
+    // 'p code': {
     //     fontSize: '.85rem',
-    //     fontFamily: 'BentonSans Light, sans-serif'
     // },
-    footer: {
-        fontSize: '.70rem',
-        fontFamily: 'BentonSans Light, sans-serif'
-    }
+    // // TODO: why tho
+    // 'h1 code, h2 code, h3 code, h4 code, h5 code, h6 code': {
+    //     fontSize: 'inherit',
+    // },
+    // 'li code': {
+    //     // fontSize: '1rem',
+    //     fontSize: '.85rem',
+    // },
+    // blockquote: {
+    //     color: 'inherit',
+    //     borderLeftColor: 'inherit',
+    //     opacity: '0.8',
+    // },
+    // 'blockquote.translation': {
+    //     fontSize: '.85em',
+    // },
+
+    // 'h2': {
+    //     fontFamily: 'Josefin, sans-serif',
+    // },
+
+    // 'h3': {
+    //     fontFamily: 'Josefin, sans-serif',
+    // },
+
+    // 'h4': {
+    //     fontFamily: 'Josefin, sans-serif',
+    // },
+
+    // 'section, p': {
+    //     fontSize: '20px',
+    //     fontFamily: 'Muli, sans-serif'
+    // },
+    // // medium: {
+    // //     fontSize: '.85rem',
+    // //     fontFamily: 'BentonSans Light, sans-serif'
+    // // },
+    // footer: {
+    //     fontSize: '.70rem',
+    //     fontFamily: 'BentonSans Light, sans-serif'
+    // }
 });
 
 delete Wordpress2016.googleFonts;
