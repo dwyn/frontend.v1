@@ -9,11 +9,10 @@ import Footer from '../components/footer';
 import PostPreview from "../components/post-preview";
 import 'prismjs/themes/prism-coy.css'
 import algoliasearch from 'algoliasearch/lite';
-import { InstantSearch, SearchBox, connectedHits } from 'react-instantsearch-dom';
+import { InstantSearch, SearchBox } from 'react-instantsearch-dom';
 import { Hits } from '../components/hits'; // My custom hits
 
 const searchClient = algoliasearch('NNL7N3L2O7', 'cff43c48ea33c25a57931077fa7742a5');
-const CustomHits = connectedHits(Hits); // My custom hits
 
 class BlogIndex extends React.Component {
   render() {
@@ -28,7 +27,7 @@ class BlogIndex extends React.Component {
         <InstantSearch searchClient={searchClient} indexName="dwayne.fm">
           {/* <SearchBox /> */}
           {/* <Hits hitComponent={PostPreview} /> */}
-          {/* <CustomHits /> */}
+          <Hits />
         </InstantSearch>
         <Footer/>
       </Layout>
