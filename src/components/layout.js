@@ -72,6 +72,7 @@ class Layout extends React.Component {
     const { children } = this.props;
 
     return (
+      
       <div
         style={{
           color: 'var(--textNormal)',

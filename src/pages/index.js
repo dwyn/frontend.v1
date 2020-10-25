@@ -9,9 +9,11 @@ import Footer from '../components/footer';
 import PostPreview from "../components/post-preview";
 import 'prismjs/themes/prism-coy.css'
 import algoliasearch from 'algoliasearch/lite';
-import { InstantSearch, SearchBox, Hits } from 'react-instantsearch-dom';
+import { InstantSearch, SearchBox, connectedHits } from 'react-instantsearch-dom';
+import { Hits } from '../components/hits'; // My custom hits
 
 const searchClient = algoliasearch('NNL7N3L2O7', 'cff43c48ea33c25a57931077fa7742a5');
+const CustomHits = connectedHits(Hits); // My custom hits
 
 class BlogIndex extends React.Component {
   render() {
@@ -20,12 +22,13 @@ class BlogIndex extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="All posts" />
+
         <Bio />
 
         <InstantSearch searchClient={searchClient} indexName="dwayne.fm">
-
-          <SearchBox />
-          <Hits hitComponent={PostPreview} />
+          {/* <SearchBox /> */}
+          {/* <Hits hitComponent={PostPreview} /> */}
+          {/* <CustomHits /> */}
         </InstantSearch>
         <Footer/>
       </Layout>
@@ -36,12 +39,12 @@ class BlogIndex extends React.Component {
 export default BlogIndex
 
 export const pageQuery = graphql`
-  query {
-    site {
-      siteMetadata {
-        title
-      }
+query {
+  site {
+    siteMetadata {
+      title
     }
+  }
     allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
       edges {
         node {
@@ -58,4 +61,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+  `
